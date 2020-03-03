@@ -1,0 +1,39 @@
+See file:///C:/Users/gilbe/OneDrive/Documents/frcexample/frc2020ex/77782020/7778/drivetrain2020/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
+compiling Robot.cpp failed.
+In file included from C:\Users\gilbe\OneDrive\Documents\frcexample\frc2020ex\77782020\7778\drivetrain2020\src\main\cpp\Robot.cpp:19:0:
+C:\Users\gilbe\OneDrive\Documents\frcexample\frc2020ex\77782020\7778\drivetrain2020\src\main\cpp\Autonomous.h:17:2: error: expected ';' after class definition
+ }
+  ^
+  ;
+C:\Users\gilbe\OneDrive\Documents\frcexample\frc2020ex\77782020\7778\drivetrain2020\src\main\cpp\Autonomous.h: In constructor 'Autonomous::Robot::Robot()':
+C:\Users\gilbe\OneDrive\Documents\frcexample\frc2020ex\77782020\7778\drivetrain2020\src\main\cpp\Autonomous.h:8:5: error: 'm_robotDrive' was not declared in this scope
+     m_robotDrive.SetExpiration(0.1);
+     ^~~~~~~~~~~~
+C:\Users\gilbe\OneDrive\Documents\frcexample\frc2020ex\77782020\7778\drivetrain2020\src\main\cpp\Autonomous.h:8:5: note: suggested alternative: 'RobotMove'
+     m_robotDrive.SetExpiration(0.1);
+     ^~~~~~~~~~~~
+     RobotMove
+C:\Users\gilbe\OneDrive\Documents\frcexample\frc2020ex\77782020\7778\drivetrain2020\src\main\cpp\Autonomous.h:9:5: error: 'm_timer' was not declared in this scope
+     m_timer.Start();
+     ^~~~~~~
+C:\Users\gilbe\OneDrive\Documents\frcexample\frc2020ex\77782020\7778\drivetrain2020\src\main\cpp\Autonomous.h:9:5: note: suggested alternative: 'mktime'
+     m_timer.Start();
+     ^~~~~~~
+     mktime
+C:\Users\gilbe\OneDrive\Documents\frcexample\frc2020ex\77782020\7778\drivetrain2020\src\main\cpp\Autonomous.h: In member function 'void Autonomous::Robot::RobotMove(int, int, int)':
+C:\Users\gilbe\OneDrive\Documents\frcexample\frc2020ex\77782020\7778\drivetrain2020\src\main\cpp\Autonomous.h:12:11: error: 'm_timer' was not declared in this scope
+     while(m_timer.Get() < time) {
+           ^~~~~~~
+C:\Users\gilbe\OneDrive\Documents\frcexample\frc2020ex\77782020\7778\drivetrain2020\src\main\cpp\Autonomous.h:12:11: note: suggested alternative: 'mktime'
+     while(m_timer.Get() < time) {
+           ^~~~~~~
+           mktime
+C:\Users\gilbe\OneDrive\Documents\frcexample\frc2020ex\77782020\7778\drivetrain2020\src\main\cpp\Autonomous.h:14:7: error: 'm_robotDrive' was not declared in this scope
+       m_robotDrive.ArcadeDrive(param1, param2);
+       ^~~~~~~~~~~~
+C:\Users\gilbe\OneDrive\Documents\frcexample\frc2020ex\77782020\7778\drivetrain2020\src\main\cpp\Autonomous.h:14:7: note: suggested alternative: 'RobotMove'
+       m_robotDrive.ArcadeDrive(param1, param2);
+       ^~~~~~~~~~~~
+       RobotMove
+
+Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///C:/Users/gilbe/OneDrive/Documents/frcexample/frc2020ex/77782020/7778/drivetrain2020/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.
